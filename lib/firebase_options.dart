@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCrpWw8UfiG65AFWHanhWwP8ZCi3IZzRU8',
-    appId: '1:475962968801:android:0c88333f42e5ec0ee4c5a0',
-    messagingSenderId: '475962968801',
-    projectId: 'flutter-mvc-64e80',
-    storageBucket: 'flutter-mvc-64e80.appspot.com',
+    apiKey: Env.apiKey,
+    appId: Env.appId,
+    messagingSenderId: Env.messagingSenderId,
+    projectId: Env.projectId,
+    storageBucket: Env.storageBucket,
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCJPXend16ujfeYMvV74PQu0Rh95Z-BZUI',
-    appId: '1:475962968801:ios:2d55f7b122913760e4c5a0',
-    messagingSenderId: '475962968801',
-    projectId: 'flutter-mvc-64e80',
-    storageBucket: 'flutter-mvc-64e80.appspot.com',
-    iosClientId: '475962968801-011qg6tu8irksvsim301qdfvm16lnb3f.apps.googleusercontent.com',
+    apiKey: Env.apiKey,
+    appId: Env.appId,
+    messagingSenderId: Env.messagingSenderId,
+    projectId: Env.projectId,
+    storageBucket:  Env.storageBucket,
+    iosClientId:  Env.iosClientId,
     iosBundleId: 'com.example.flutterMvc',
   );
 }
