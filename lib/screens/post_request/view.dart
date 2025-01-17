@@ -14,7 +14,7 @@ class _SendPostRequestState extends State<SendPostRequest> {
   bool _showLoader = true;
 
   final _payload = {
-    "username": "sumit@uxdlabtech.com",
+    "username": "john@example.com",
     "password": "123456"
   };
 
